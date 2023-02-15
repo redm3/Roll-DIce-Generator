@@ -12,7 +12,9 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0rem calc((100vw - 1300px) / 2);
+    padding: 0rem calc((10vw - 1300px) / 2);
+    overflow: hidden;
+    /* background:yellow; */
   }
 
   nav a {
@@ -39,7 +41,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #fdcc04;
+    background: #fdcc04; 
 
 /*     background: linear-gradient(
         #0c6a6d,
