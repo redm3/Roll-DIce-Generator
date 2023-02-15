@@ -4,6 +4,8 @@ function rollDice() {
     document.getElementById("result").innerHTML = "Result: " + result;
   }
 
+  rollDice();
+
   //test if function returns a number 
   function testRollDiceReturnsNumber() {
     const result = rollDice();
