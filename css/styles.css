@@ -75,3 +75,69 @@ button{
     cursor: pointer;
     border-radius: 50px;
 }
+
+/* BAR GRAPH STUFF */
+.chart {
+  display: flex;
+  height: 300px;
+  width: 500px;
+  margin: 20px auto;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+}
+
+.chart-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.bar {
+  flex: 1;
+  background-color: #007bff;
+  margin: 0 5px;
+  border-radius: 5px 5px 0 0;
+  transition: height 0.3s ease-in-out;
+}
+
+.bar[data-value="1"] {
+  background-color: #ff0000;
+}
+
+.bar[data-value="2"] {
+  background-color: #ff7f00;
+}
+
+.bar[data-value="3"] {
+  background-color: #ffff00;
+}
+
+.bar[data-value="4"] {
+  background-color: #00ff00;
+}
+
+.bar[data-value="5"] {
+  background-color: #007fff;
+}
+
+.bar[data-value="6"] {
+  background-color: #7f00ff;
+}
+
+.bar[data-value="7"] {
+  background-color: #f700ff;
+}
+
+.bar[data-value="8"] {
+  background-color: #000000;
+}
+
+.bar[data-value="9"] {
+  background-color: #00c0fa;
+}
+
+.bar[data-value="10"] {
+  background-color: #ffffff;
+}
+
+

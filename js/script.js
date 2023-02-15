@@ -22,6 +22,12 @@ function rollDice() {
     var result = Math.floor(Math.random() * diceType) + 1;
     document.getElementById("result").innerHTML = "Result: " + result;
 
+    // update the height of the corresponding bar
+    const bar = document.querySelector(`.bar[data-value="${result}"]`);
+    const currentHeight = bar.style.height ? parseInt(bar.style.height) : 0;
+    const newHeight = currentHeight + 10;
+    bar.style.height = `${newHeight}%`;
+
     if (diceType==6){
         if (result==1){
             var sourceOfPicture = "https://media.tenor.com/BZGKCKH8Wp4AAAAj/dice-roll-dice.gif";
