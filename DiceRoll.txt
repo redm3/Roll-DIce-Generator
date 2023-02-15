@@ -1,0 +1,11 @@
+Define on paper, all the use cases (functionalities) you will need for this page.
+1. Dice Generator
+2. Select the type of Dice either buttons or drop down menu
+3. On click button to retrieve the result
+4. Display the result
+
+
+UI
+On click display spin gif. 
+
+Depending on result, display the correct dice number 
