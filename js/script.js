@@ -45,7 +45,7 @@ function rollDice() {
 
     if (diceType==6){
         if (result==1){
-            var sourceOfPicture = "https://media.tenor.com/BZGKCKH8Wp4AAAAi/dice-roll-dice.gif";
+            var sourceOfPicture = "https://media.tenor.com/BZGKCKH8Wp4AAAAj/dice-roll-dice.gif";
             var img = document.getElementById('6-1pic')
             img.src = sourceOfPicture.replace('90x90', '225x225');
             img.style.display = "block";
@@ -53,14 +53,14 @@ function rollDice() {
         }
 
         if(result==2){
-            var sourceOfPicture = "https://media.tenor.com/VB6lPcSFiVgAAAAi/dice2-dice.gif";
+            var sourceOfPicture = "https://media.tenor.com/VB6lPcSFiVgAAAAj/dice2-dice.gif";
             var img = document.getElementById('6-2pic')
-            img.src = sourceOfPicture.replace('90x90', '225x225');
+            img.src = sourceOfPicture.replace('20x20', '100x100');
             img.style.display = "block";
             setTimeout(function() {img.style.display = 'none';}, 3500); // 1000 milliseconds = 1 seconds
         }
         if(result==3){
-            var sourceOfPicture = "https://media.tenor.com/Pq2avhc9XvkAAAAi/dice-roll-dice.gif";
+            var sourceOfPicture = "https://media.tenor.com/Pq2avhc9XvkAAAAj/dice-roll-dice.gif";
             var img = document.getElementById('6-3pic')
             img.src = sourceOfPicture.replace('90x90', '225x225');
             img.style.display = "block";
@@ -74,7 +74,7 @@ function rollDice() {
             setTimeout(function() {img.style.display = 'none';}, 3500); // 1000 milliseconds = 1 seconds
         }
         if(result==5){
-            var sourceOfPicture = "https://media.tenor.com/iBb9CXPm3icAAAAi/dice-roll-dice.gif";
+            var sourceOfPicture = "https://media.tenor.com/iBb9CXPm3icAAAAj/dice-roll-dice.gif";
             var img = document.getElementById('6-5pic')
             img.src = sourceOfPicture.replace('90x90', '225x225');
             img.style.display = "block";
