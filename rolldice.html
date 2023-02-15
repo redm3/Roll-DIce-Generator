@@ -16,12 +16,12 @@
         </div>
       </nav>
     <h1>Dice Roll Generator</h1>
-    <p>Select the type of dice:</p>
+    <p>Select 6 or 10 sided dice:</p>
     <select id="dice-type"><br>
         <option value="6">D6</option>
         <option value="10">D10</option>
     </select><br>
-     <img style="display:none;" id="6pic" src="https://viterbi-web.usc.edu/~ckojukwu/itp301/assignment_04/img/diceroll.gif" />
+     <!-- <img style="display:none;" id="6pic" src="https://viterbi-web.usc.edu/~ckojukwu/itp301/assignment_04/img/diceroll.gif" /> -->
      <img style="display:none;" id="6-1pic" src="https://media.tenor.com/BZGKCKH8Wp4AAAAj/dice-roll-dice.gif" />
      <img style="display:none;" id="6-2pic" src="https://media.tenor.com/VB6lPcSFiVgAAAAj/dice2-dice.gif" />
      <img style="display:none;" id="6-3pic" src="https://media.tenor.com/Pq2avhc9XvkAAAAj/dice-roll-dice.gif" />
@@ -29,7 +29,7 @@
      <img style="display:none;" id="6-5pic" src="https://media.tenor.com/iBb9CXPm3icAAAAj/dice-roll-dice.gif" />
      <img style="display:none;" id="6-6pic" src="https://media.tenor.com/HcK7RSiai-AAAAAj/dice-roll-dice.gif" />
 
-    <img style="display:none;" id="10pic" src="https://media.tenor.com/flDyUOp9NDoAAAAi/d20-dice-roll.gif" />
+    <!-- <img style="display:none;" id="10pic" src="https://media.tenor.com/flDyUOp9NDoAAAAi/d20-dice-roll.gif" /> -->
     <img style="display:none;" id="10-1pic" src="https://media.tenor.com/tCq5mfycACMAAAAi/d20-dice-roll.gif" />
     <img style="display:none;" id="10-2pic" src="https://media.tenor.com/zTg9FhOqpDIAAAAi/d20-dice-roll.gif" />
     <img style="display:none;" id="10-3pic" src="https://media.tenor.com/8UcqJlc93EgAAAAi/d20-dice-roll.gif" />
@@ -44,6 +44,7 @@
     <button type="button" onclick="rollDice()" >Roll Dice</button>
 
     <p id="result">Result: </p>
+    <button onClick="window.location.reload();">Reset Dice</button>
 
     <footer>
         <p id="demo">@copyright 2050 by dice roll Generator. all rights reversed</p>

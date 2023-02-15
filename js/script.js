@@ -2,7 +2,7 @@ function rollDice() {
 
     var diceType = document.getElementById("dice-type").value;
     
-    if (diceType == 6) {    
+/*     if (diceType == 6) {    
         var sourceOfPicture = "https://viterbi-web.usc.edu/~ckojukwu/itp301/assignment_04/img/diceroll.gif";
         var img = document.getElementById('6pic')
         img.src = sourceOfPicture.replace('90x90', '225x225');
@@ -17,7 +17,7 @@ function rollDice() {
         img.src = sourceOfPicture.replace('90x90', '225x225');
         img.style.display = "block";
         //setTimeout(function() {img.style.display = 'none';}, 2000); // 1000 milliseconds = 1 seconds
-    }
+    } */
 
     var result = Math.floor(Math.random() * diceType) + 1;
     document.getElementById("result").innerHTML = "Result: " + result;
