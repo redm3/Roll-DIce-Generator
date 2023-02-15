@@ -141,4 +141,4 @@ function rollDice() {
             setTimeout(function() {img.style.display = 'none';}, 2000); // 1000 milliseconds = 1 seconds
         }
     }
-  }
+}
