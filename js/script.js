@@ -89,8 +89,6 @@ function rollDice() {
             setTimeout(function() {img.style.display = 'none';}, 3500); // 1000 milliseconds = 1 seconds
         }
     }
-
-
     if (diceType==10){
         if (result==1){
             var sourceOfPicture = "https://media.tenor.com/tCq5mfycACMAAAAi/d20-dice-roll.gif";
@@ -134,7 +132,6 @@ function rollDice() {
             img.src = sourceOfPicture.replace('90x90', '225x225');
             img.style.display = "block";
             setTimeout(function() {img.style.display = 'none';}, 2000); // 1000 milliseconds = 1 seconds
-
         }
         if(result==7){
             var sourceOfPicture = "https://media.tenor.com/jTOrIZkFmVYAAAAi/d20-dice-roll.gif";
@@ -142,7 +139,6 @@ function rollDice() {
             img.src = sourceOfPicture.replace('90x90', '225x225');
             img.style.display = "block";
             setTimeout(function() {img.style.display = 'none';}, 2000); // 1000 milliseconds = 1 seconds
-
         }
         if(result==8){
             var sourceOfPicture = "https://media.tenor.com/FFLUTiVgFNsAAAAi/d20-dice-roll.gif";
@@ -150,7 +146,6 @@ function rollDice() {
             img.src = sourceOfPicture.replace('90x90', '225x225');
             img.style.display = "block";
             setTimeout(function() {img.style.display = 'none';}, 2000); // 1000 milliseconds = 1 seconds
-
         }
         if(result==9){
             var sourceOfPicture = "https://media.tenor.com/92v1rySX6QUAAAAi/d20-dice-roll.gif";
@@ -158,7 +153,6 @@ function rollDice() {
             img.src = sourceOfPicture.replace('90x90', '225x225');
             img.style.display = "block";
             setTimeout(function() {img.style.display = 'none';}, 2000); // 1000 milliseconds = 1 seconds
-
         }
         if(result==10){
             var sourceOfPicture = "https://media.tenor.com/flDyUOp9NDoAAAAi/d20-dice-roll.gif";
@@ -166,9 +160,6 @@ function rollDice() {
             img.src = sourceOfPicture.replace('90x90', '225x225');
             img.style.display = "block";
             setTimeout(function() {img.style.display = 'none';}, 2000); // 1000 milliseconds = 1 seconds
-
         }
     }
-
-
   }
